@@ -1,0 +1,13 @@
+使用自带的sbt console启动。
+
+$ sbt console
+
+
+http://twitter.github.io/scala_school/zh_cn/index.html
+val two = 1 + 1
+不变量（val）
+你不能改变这个不变量的值.
+
+可变量 var
+
+abstract class can't not be instanced
