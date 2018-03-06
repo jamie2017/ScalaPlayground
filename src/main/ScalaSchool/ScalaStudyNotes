@@ -11,3 +11,34 @@ val two = 1 + 1
 可变量 var
 
 abstract class can't not be instanced
+
+
+
+
+traits
+similar to interfaces in java
+traits -> state variables
+       -> methods with implementations
+
+scala -> abstract(abstraction in the common hierarchy) vs
+         traits(provide specifications)
+
+abstract
+Eg. files -> normal files, compressed, encrypted,...
+    Accounts, Savings, Current, Trading,...
+
+
+traits
+Eg. tv remote -> red, blue, green, vol +/-, ch +/-, ...
+    sony tv -> red will show the date
+
+In Java:
+interface TVRemote {
+    public void onRed();
+    ...
+    }
+In scala:
+trait TVRemote {
+    def onRed():Unit = {}
+    ...
+    }
