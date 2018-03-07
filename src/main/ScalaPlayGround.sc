@@ -1,9 +1,9 @@
-for(i <- 0 until 20) {
+for(i <- 0 until 15) {
   (i % 3, i % 5) match {
     case (0,0) => println("FizzBuzz")
     case (0,_) => println("Fizz")
     case (_,0) => println("Buzz")
-    case  _    =>
+    case  _    => println(i)
   }
 }
 
@@ -118,4 +118,17 @@ aTuple._2 // or aTuple _2
 // -> Tuples are typically used for the functions which return more than one value
 "Good Morning, My Princess!".partition(_.isUpper)
 // (String, String) = (GMMP,ood orning, y rincess!)
+
+import scala.collection.mutable.ListBuffer
+var result = new ListBuffer[String]()
+for( i <- 1 to 3) {
+  (i % 3 , i % 5) match {
+    case (0,0) => result += "FizzBuzz"
+    case (0,_) => result += "Fizz"
+    case (_,0) => result += "Buzz"
+    case  _    => result += ("" + i)
+  }
+}
+result.toList
+result.foreach(println)
 
