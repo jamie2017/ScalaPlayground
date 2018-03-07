@@ -132,3 +132,43 @@ for( i <- 1 to 3) {
 result.toList
 result.foreach(println)
 
+
+
+// == check value equals
+// eq check identity equals
+
+
+// && - and
+// || - inclusive or/logical or
+// ^  - exclusive or
+// !  - not
+
+
+val n = 3
+val d = 0
+val qualify = d > 0 && n / d > 0
+
+
+
+// Operations
+
+3 + 4 * 5
+3 + 2 < 4 * 5 && 5 > 7 // false
+// high to low precidence
+// other symbols, * . % ,  + - , :, = !, < >, &, ^, |, letter, assignment
+
+3 min 5
+
+3 + 3 min 5
+
+
+
+// Bitwise Arithmetic
+
+val red = 0x55
+val green = 0x66
+val blue = 0xaa
+
+((red << 16) | (green << 8) | blue ) == 0x5566aa
+
+
