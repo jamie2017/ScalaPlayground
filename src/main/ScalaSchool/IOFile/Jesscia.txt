@@ -1,0 +1,4 @@
+CA,F,1983,Jesscia,6
+CA,F,1984,Jesscia,5
+CA,F,1988,Jesscia,5
+CA,F,1990,Jesscia,5
