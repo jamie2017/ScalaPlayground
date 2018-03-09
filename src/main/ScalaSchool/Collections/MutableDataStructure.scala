@@ -26,6 +26,8 @@ object MutableDataStructure {
     val arr2 = Array(1,2,3,4,5)
     println(operateArray(arr2, 0, _ + _))
     println(operateArray(arr2, 0, _ * _))
+    println(arr2.mkString(","))
+
 
     var i = 0
     val arr3 = Array.fill(10)({i += 1; i})
@@ -43,6 +45,14 @@ object MutableDataStructure {
     println(arr6.mkString(","))
     val arr7 = Array.tabulate(10)(i => i * 2) //Array(0, 2, 4, 6, 8, 10, 12, 14, 16, 18)
     println(arr7.mkString(","))
+
+
+
+    // MultiDimensional Arrays
+
+    val r3c5 = Array.fill(3,5)(0)
+    println(r3c5(2)(2))
+    Array.tabulate(3,5){(i,j) => i * j}
 
 
   }

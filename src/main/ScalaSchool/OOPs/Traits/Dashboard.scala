@@ -1,4 +1,4 @@
-package main.ScalaSchool.Traits
+package main.ScalaSchool.OOPs.Traits
 
 class Dashboard (var speed: Float) extends Speedometer {
   def showSpeed: Float = speed

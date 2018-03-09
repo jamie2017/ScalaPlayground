@@ -37,7 +37,7 @@ object EvalPoly{
   }
 
   def main(args: Array[String]): Unit = {
-    println(evalPoly(Array(3,2,-5),1) + "")
+    println(evalPoly(Array(3,2,-5),1))
     println(evalPolyRev(Array(3,2,-5),1))
     println(evalPolyStep(Array(3,2,-5),1))
     println(evalPolyYield(Array(3,2,-5),1))

@@ -1,4 +1,4 @@
-package main.ScalaSchool.Traits
+package main.ScalaSchool.OOPs.Traits
 
 object TestSpeedometer {
 
